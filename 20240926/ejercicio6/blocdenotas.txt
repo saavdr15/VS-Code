@@ -1,0 +1,1 @@
+Funciona el bloc de notas.
