@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 28</title>
+</head>
+<body>
+    <form>
+    <h1>Cuestionario de Cine</h1>
+    <br>
+    
+    <fieldset>
+        <legend>Datos personales</legend>
+            <label name="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label name="apellidos">Apellidos:</label><br>
+            <input type="text" id="apellidos" name="apellidos"><br>
+            <label name="dni">DNI:</label><br>
+            <input type="text" id="dni" name="dni"><br>
+            <label name="edad">Edad:</label><br>
+            <input type="text" id="edad" name="edad" size="2"><br>
+            <label name="sexo">Sexo:</label><br>
+            <select>
+                <option value="blank"></option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+            </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Mejor Película</legend>
+        <input type="radio" id="centaurosdeldesierto" name="mejorpelicula">
+        <label form="pelicula1">Centauros del desierto</label><br>
+        <input type="radio" id="elhombrequematóalibertyvalance" name="mejorpelicula">
+        <label form="pelicula2">El hombre que mató a Liberty Valance</label><br>
+        <input type="radio" id="riorojo" name="mejorpelicula">
+        <label form="pelicula3">Rio Rojo</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Selecciona las películas que hayas visto</legend>
+        <input type="radio" id="riobravo" name="peliculavista">
+        <label form="pelicula1">Rio Bravo</label><br>
+        <input type="radio" id="elúltimotrenagunhill" name="peliculavista">
+        <label form="pelicula2">El último tren a Gun Hill</label><br>
+        <input type="radio" id="sóloanteelpeligro" name="peliculavista">
+        <label form="pelicula3">Sólo ante el peligro</label><br>
+        <input type="radio" id="misióndeaudaces" name="peliculavista">
+        <label form="pelicula4">Misión de audaces</label><br>
+        <input type="radio" id="elsargentonegro" name="peliculavista">
+        <label form="pelicula5">El sargento negro</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Argumento de tu película preferida</legend>
+        <textarea rows="12" cols="43"></textarea>
+    </fieldset>
+
+    </form>
+</body>
+</html>
