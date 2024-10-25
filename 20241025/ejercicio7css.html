@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7 CSS</title>
+    <style>
+        *{
+            font-family:Helvetica;
+        }
+
+        *:focus{
+            background-color:white;
+            text-align:center;
+        }
+
+        textarea{
+            text-align:left !important;
+            border-style:dotted;
+        }
+
+        legend{
+            color:blue;
+            font-weight:bold;
+        }
+
+        fieldset fieldset legend{
+            color:grey;
+        }
+
+        label{
+            color:grey;
+            font-weight:bold;
+        }
+
+        fieldset fieldset{
+            width:200px;
+        }
+
+        input[type="submit"]{
+            background-color:blue;
+            color:white;
+            width:130px;
+            border-color:grey;
+            border-radius:10px;
+        }
+
+        textarea, input, select{
+            background-color:lightyellow;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Datos personales</legend>
+            <label name="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label name="apellidos">Apellidos:</label><br>
+            <input type="text" id="apellidos" name="apellidos"><br>
+            <label name="dni">DNI:</label><br>
+            <input type="text" id="dni" name="dni"><br>
+            <label name="edad">Edad:</label><br>
+            <input type="text" id="edad" name="edad" size="2"><br>
+            <label name="sexo">Sexo:</label><br>
+            <select>
+                <option value="blank">...</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+            </select>
+
+                <fieldset>
+                    <legend>Fecha de nacimiento</legend>
+                    <label name="dia">Dia</label><br>
+                    <select>
+                        <option value="blank">...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select> <br>
+                    <label name="mes">Mes:</label><br>
+                    <select>
+                        <option value="blank">...</option>
+                        <option value="enero">Enero</option>
+                        <option value="febrero">Febrero</option>
+                    </select> <br>
+                    <label name="año">Año:</label><br>
+                    <select>
+                        <option value="blank">...</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                    </select> <br>
+                </fieldset>
+    </fieldset>
+
+    <fieldset>
+        <legend>Sugerencias</legend>
+        <textarea rows="12" cols="43"></textarea>
+    </fieldset>
+
+    <br>
+
+    <input type="submit" value="Enviar datos">
+
+    </form>
+</body>
+</html>
