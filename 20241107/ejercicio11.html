@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet"
+  type="text/css" href="estilocompleto-e.css">
+    <meta charset="utf-8">
+    <title>Ejercicio</title>
+    <style>
+      .static{
+        position:static;
+        position-top:50px;
+        height:200px;
+        width:100px;
+        background-color: yellow;
+      }
+
+      .relative{
+        position:relative;
+        height:300px;
+        width:300px;
+        background-color: lightblue;
+        background-size:;
+        border-color:blue;
+      }
+
+      .absolute2{
+        position:absolute;
+        height: 200px;
+        width: 100px;
+        background-color: grey;
+      }
+
+      .absolute{
+        position:absolute;
+        height:300px;
+        width:300px;
+        border: black 2px solid;
+        margin-top:100px;
+        margin-left:100px;
+      }
+    </style>
+</head>
+
+<body>
+<p>Contenido antes del div siguiendo el flujo normal</p>
+<div class="static">
+  Este Div está posicionado estáticamente, tamaño 200x100, fondo amarillo, borde verde y desplazado 50px de la parte superior e izquierda.
+</div>
+<p>a continuación otro párrafo. El div anterior al estar definido como position static no hace caso de los desplazamientos superior e izquierdo</p>
+<div class="relative">
+  Este Div está posicionado relative, tamaño 300x300, fondo azul claro, borde azul y desplazado 50px de la parte superior e izquierda.
+  <div class="absolute2">
+  Este Div está posicionado absolute, tamaño 200x100, fondo gris, borde negro y desplazado 20px de la parte superior e izquierda.
+</div>
+</div>
+<div class="absolute">
+  Este Div está posicionado absolute, tamaño 300x300, fondo transparente, borde negro y desplazado 100px de la parte superior e izquierda.
+</div>
+<div class="fijo">
+  Fijo esquina inferior derecha.
+</div>
+
+</body>
+</html>
