@@ -1,0 +1,19 @@
+*{
+    text-align:center;
+}
+
+h1{
+    font-family:"Playfair Display",serif;
+}
+
+span{
+    color:#037bc0;
+}
+
+.hero{
+    background-image:url("./../img/principal.jpg");
+    background-repeat:no-repeat;
+    background-size:100%;
+    height:731px;
+    background-position:center;
+}

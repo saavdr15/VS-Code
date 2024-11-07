@@ -1,0 +1,3 @@
+El h1 tiene Font-family:font-family: 'Playfair Display', serif;
+Color #037bc0.
+Clase hero con propiedades background-image, background-repeat, background-size y background-position.
